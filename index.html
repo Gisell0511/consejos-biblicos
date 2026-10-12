@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Carlos & Alejandra</title>
+
+  <!-- FUENTES -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+
+  <main class="app">
+
+
+    <!-- ================================================= -->
+    <!-- 💌 SOBRE -->
+    <!-- ================================================= -->
+
+    <section
+      id="screenEnvelope"
+      class="envelope-screen"
+    >
+
+      <div
+        class="envelope"
+        id="envelope"
+      >
+
+        <div class="envelope__body"></div>
+
+        <div class="envelope__flap"></div>
+
+        <div class="envelope__seal"></div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================================================= -->
+    <!-- 💚 INVITACIÓN -->
+    <!-- ================================================= -->
+
+    <div
+      id="invitation"
+      class="invitation"
+    >
+
+
+      <!-- ================================================= -->
+      <!-- PORTADA -->
+      <!-- ================================================= -->
+
+      <section class="hero">
+
+        <img
+          src="assets/pre4.jpeg"
+          alt="Carlos y Alejandra"
+          class="hero-image"
+        >
+
+        <div class="hero-overlay"></div>
+
+
+        <div class="hero-content">
+
+          <p class="hero-label">
+            NUESTRA BODA
+          </p>
+
+          <h1>
+            Carlos & Alejandra
+          </h1>
+
+          <p class="hero-date">
+            22 · NOV · 2026
+          </p>
+
+          <div class="hero-line"></div>
+
+          <p class="scroll-text">
+            DESLIZA PARA CONTINUAR
+          </p>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- ================================================= -->
+      <!-- 💌 NOS CASAMOS -->
+      <!-- ================================================= -->
+
+      <section class="invitation-intro">
+
+        <div class="invitation-intro-image">
+
+          <img
+            src="assets/1.png"
+            alt="Nos casamos - Carlos y Alejandra"
+          >
+
+        </div>
+
+      </section>
+
+
+
+      <section class="wedding-section">
+
+  <div class="section-title">
+  <p>NUESTRO MOMENTO</p>
+  <h2><small>Nuestra</small><em>boda</em></h2>
+  <span></span>
+</div>
+
+  <div class="gallery">
+
+    <!-- FOTO PRINCIPAL EN ARCO -->
+    <figure class="arch reveal">
+      <img src="assets/Replace Prueba 2.jpeg" alt="Foto de preboda">
+    </figure>
+
+    <p class="gallery-script reveal">Y dijo que sí</p>
+
+    <!-- DOS POLAROIDS SUPERPUESTAS -->
+    <div class="duo">
+
+      <figure class="polaroid tilt-left reveal">
+        <img src="assets/pre-12.jpeg" alt="Foto de preboda">
+        <figcaption>Siempre contigo</figcaption>
+      </figure>
+
+      <figure class="polaroid tilt-right reveal">
+        <img src="assets/pre-5.jpeg" alt="Foto de preboda">
+        <figcaption>Nuestra historia</figcaption>
+      </figure>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- 📖 TEXTO BÍBLICO -->
+<!-- ================================================= -->
+
+<section class="verse-section" id="verseSection">
+
+  <!-- FONDO ANIMADO -->
+  <div class="verse-bg">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+    <div class="verse-particles" id="verseParticles"></div>
+  </div>
+
+  <!-- CONTENIDO -->
+  <div class="verse-content">
+
+    <div class="verse-symbol">✦</div>
+
+    <blockquote class="typewriter" id="verseText" data-speed="80">
+      “Mejor son dos que uno solo”
+    </blockquote>
+
+    <p class="verse-reference fade-in" id="verseRef">
+      Eclesiastés 4:9
+    </p>
+
+    <div class="verse-divider fade-in" id="verseDivider"></div>
+
+    <p class="verse-description typewriter" id="verseDesc" data-speed="30">
+      Queremos compartir nuestros consejos biblicos rodeados de las personas que queremos y que forman parte de nuestra historia.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- 🖼️ MOMENTOS (ACORDEÓN) -->
+<!-- ================================================= -->
+
+<section class="moments-section" id="momentsSection">
+
+  <div class="section-title">
+    <p>PREBODA</p>
+    <h2><small>Nuestros</small><em>momentos</em></h2>
+    <span></span>
+  </div>
+
+  <p class="acc-hint">TOCA UNA FOTO PARA VERLA</p>
+
+  <div class="accordion reveal" id="accordion">
+
+    <article class="acc-item active" tabindex="0" role="button" aria-expanded="true" aria-label="Foto 1">
+      <img src="assets/pre-2.jpeg" alt="Foto de preboda 1" loading="lazy">
+      <span class="acc-num">01</span>
+      <span class="acc-bar"></span>
+    </article>
+
+    <article class="acc-item" tabindex="0" role="button" aria-expanded="false" aria-label="Foto 2">
+      <img src="assets/pre-5.jpeg" alt="Foto de preboda 2" loading="lazy">
+      <span class="acc-num">02</span>
+      <span class="acc-bar"></span>
+    </article>
+
+    <article class="acc-item" tabindex="0" role="button" aria-expanded="false" aria-label="Foto 3">
+      <img src="assets/pre-6.jpeg" alt="Foto de preboda 3" loading="lazy">
+      <span class="acc-num">03</span>
+      <span class="acc-bar"></span>
+    </article>
+
+    <article class="acc-item" tabindex="0" role="button" aria-expanded="false" aria-label="Foto 4">
+      <img src="assets/pre-7.jpeg" alt="Foto de preboda 4" loading="lazy">
+      <span class="acc-num">04</span>
+      <span class="acc-bar"></span>
+    </article>
+
+    <article class="acc-item" tabindex="0" role="button" aria-expanded="false" aria-label="Foto 5">
+      <img src="assets/pre-8.jpeg" alt="Foto de preboda 5" loading="lazy">
+      <span class="acc-num">05</span>
+      <span class="acc-bar"></span>
+    </article>
+
+    <article class="acc-item" tabindex="0" role="button" aria-expanded="false" aria-label="Foto 6">
+      <img src="assets/pre-9.jpeg" alt="Foto de preboda 6" loading="lazy">
+      <span class="acc-num">06</span>
+      <span class="acc-bar"></span>
+    </article>
+
+    <article class="acc-item" tabindex="0" role="button" aria-expanded="false" aria-label="Foto 7">
+      <img src="assets/pre-10.jpeg" alt="Foto de preboda 7" loading="lazy">
+      <span class="acc-num">07</span>
+      <span class="acc-bar"></span>
+    </article>
+
+    <article class="acc-item" tabindex="0" role="button" aria-expanded="false" aria-label="Foto 8">
+      <img src="assets/pre-11.jpeg" alt="Foto de preboda 8" loading="lazy">
+      <span class="acc-num">08</span>
+      <span class="acc-bar"></span>
+    </article>
+
+  </div>
+
+</section>
+
+     <section class="place-section">
+
+  <div class="section-title">
+    <p>ACOMPÁÑANOS</p>
+    <h2><small>El</small><em>gran día</em></h2>
+    <span></span>
+  </div>
+
+
+  <!-- CEREMONIA -->
+  <div class="place-card reveal">
+
+    <div class="place-icon">
+      <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="18" cy="30" r="11"/>
+        <circle cx="30" cy="30" r="11"/>
+        <path d="M24 6l3.5 4.5L24 15l-3.5-4.5z"/>
+      </svg>
+    </div>
+
+    <p class="place-time">4:00 PM</p>
+
+    <h3>Consejos Biblicos</h3>
+
+    <p class="place-name">Salon del Reino de los Testigos de Jehova</p>
+
+    <p class="place-address">Cl 14 # 4-32 Malambo,ATL </p>
+
+    <a
+      href="https://maps.app.goo.gl/keNBjHksZVZWKwqd9?g_st=aw"
+      class="place-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/>
+        <circle cx="12" cy="10" r="2.5"/>
+      </svg>
+      Cómo llegar
+    </a>
+
+  </div>
+
+
+  
+
+</section>
+
+      <!-- ================================================= -->
+      <!-- ⏳ CUENTA REGRESIVA -->
+      <!-- ================================================= -->
+
+      <section class="countdown-section">
+
+        <p class="countdown-label">
+          CADA VEZ FALTA MENOS
+        </p>
+
+        <h2>
+  <small>Faltan muy pocos días para</small>
+  <em>nuestro gran día</em>
+</h2>
+
+        <div class="countdown-divider"></div>
+
+
+        <div class="countdown">
+
+
+          <div class="count-item">
+
+            <strong id="days">
+              00
+            </strong>
+
+            <span>
+              DÍAS
+            </span>
+
+          </div>
+
+
+
+          <div class="count-item">
+
+            <strong id="hours">
+              00
+            </strong>
+
+            <span>
+              HORAS
+            </span>
+
+          </div>
+
+
+
+          <div class="count-item">
+
+            <strong id="minutes">
+              00
+            </strong>
+
+            <span>
+              MIN
+            </span>
+
+          </div>
+
+
+
+          <div class="count-item">
+
+            <strong id="seconds">
+              00
+            </strong>
+
+            <span>
+              SEG
+            </span>
+
+          </div>
+
+
+        </div>
+
+
+        <p class="countdown-date">
+          22 · NOVIEMBRE · 2026
+        </p>
+
+      </section>
+
+
+
+      <!-- ================================================= -->
+      <!-- 📸 COLLAGE (NUEVO) -->
+      <!-- ================================================= -->
+
+      <section class="memory-section">
+
+        <img
+          class="reveal"
+          src="assets/2.png"
+          alt="Carlos y Alejandra"
+        >
+
+      </section>
+
+
+
+      <!-- ================================================= -->
+      <!-- 💚 CIERRE (NUEVO) -->
+      <!-- ================================================= -->
+
+      <section class="closing-section">
+
+        <div class="closing-content reveal">
+
+          <h2 class="closing-names">Carlos &amp; Alejandra</h2>
+
+          <p class="closing-text">
+            Gracias por ser parte de este momento tan especial en nuestras vidas.
+            Esperamos compartir con ustedes la alegría de nuestro amor.
+          </p>
+                   
+          <p class="closing-love">Con cariño ♡</p>
+
+          <div class="closing-divider"></div>
+
+          <p class="closing-date">22 · NOVIEMBRE · 2026</p>
+
+        </div>
+
+      </section>
+
+
+    </div>
+
+  </main>
+
+<audio id="bgMusic" src="assets/Por el resto de mi vida - Andrés Cepeda (Letra) - Alejandro Figueredo Lopez.mp3" loop preload="auto"></audio>
+
+<button id="muteBtn" class="mute-btn" aria-label="Silenciar música">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+    <path d="M15.5 8.5a5 5 0 0 1 0 7"/>
+    <path d="M18.5 5.5a9 9 0 0 1 0 13"/>
+  </svg>
+</button>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
